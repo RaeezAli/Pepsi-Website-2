@@ -1,0 +1,463 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: white;
+}
+
+.navbar {
+    height: 100px;
+    background-color: rgb(14, 95, 177);
+    display: flex;
+    text-align: center;
+    width: 100%;
+}
+
+.logoa {
+    width: 60px;
+    margin-left: 35px;
+    margin-top: 20px;
+}
+
+.features {
+    width: 600px;
+    text-decoration: none;
+    font-weight: bolder;
+    padding-top: 42px;
+}
+
+.tags {
+    margin-left: 38px;
+    font-size: 18px;
+    text-decoration: none;
+
+}
+
+.button {
+    margin-left: 400px;
+    margin-top: 30px;
+}
+
+button {
+    padding: 6px 25px;
+    border: 2px solid white;
+    background-color: rgb(0, 92, 184);
+    border-radius: 25px;
+    font-weight: bolder;
+}
+
+.music-section {
+    background-image: url(https://www.pepsi.com/en-us/uploads/images/apple-music/background.png);
+    width: 100%;
+    height: 700px;
+    background-position: -500px;
+    display: flex;
+    background-repeat: no-repeat;
+}
+
+.pepsi-image-section {
+    display: flex;
+    margin-top: 200px;
+}
+
+.pepsi-image {
+    height: 92%;
+    margin-top: 58px;
+    margin-left: -125px;
+    z-index: -1;
+}
+
+.pepsi-music-section {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px; 
+    justify-content: center;
+    align-items: center;
+    margin-right: 200px;
+
+}
+
+.music {
+    width: 450px;
+}
+
+.get-it-now {
+    background-color: transparent;
+    border: 2px solid white;
+    padding: 7px 35px;
+    border-radius: 25px;
+    font-weight: bold;
+    margin: 50px 0 0 0;
+    font-size: large;
+}
+
+.terms {
+    padding: 55px 170px 0 170px;
+    font-size: small;
+}
+
+a {
+    text-decoration: none;
+}
+
+.section {
+    display: flex;
+    background-image: url(https://www.pepsi.com/en-us/uploads/images/apple-music/background.png);
+}
+
+.one {
+    width: 40%;
+    height: 700px;
+}
+
+.two {
+    width: 60%;
+    height: 700px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+} 
+
+.zero-suger-section {
+    background-color: black;
+    width: 100%;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.black-pepsi{
+    width: 70%;
+    height: 100%;
+    display: flex;
+}
+
+.taste {
+    width: 55%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: -100px;
+}
+
+.black {
+    height: 700px;
+    margin-left: -200px;
+}
+
+.cap {
+    height: 200px;
+    z-index: 2;
+    position: relative;
+    left: 500px;
+    top: 100px;
+}
+
+.ads{
+    display: flex;
+}
+
+.first {
+    width: 250px;
+    position: relative;
+    left: 20px;
+}
+
+.second {
+    width: 250px;
+}
+
+.ads-text {
+    text-align: center;
+    font-weight: bolder;
+    font-size: small;
+    padding: 10px 15px 0 15px;
+    color: white;
+    margin-right: 10px;
+}
+
+.img1 {
+    width: 500px;
+}
+
+.img2 {
+    width: 400px;
+    margin: 20px 0;
+}
+
+.zero {
+    margin-top: 100px;
+}
+
+.section {
+    display: flex;
+    background-color: rgb(0, 92, 184);
+    
+}
+
+.sectionA {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+}
+
+.image1 {
+    height: 75%;
+    display: flex;
+}    
+
+.image2 {
+    height: 75%;
+    display: flex;
+}
+
+.sectionB {
+    background:url(https://www.pepsi.com/en-us/uploads/images/better-with-pepsi/PEP_BWP_D.jpg) no-repeat;
+    background-position: -650px 0px;
+}
+
+.text1 {
+    padding: 8px 0;
+    text-align: center;
+    background-color: rgb(20, 20, 190);
+    font-weight: bold;
+}
+
+.text2 {
+    padding: 8px 0;
+    text-align: center;
+    background-color: rgb(20, 20, 190);
+    font-weight: bold;
+}
+
+.tag-line {
+    height: 150px;
+    z-index: 5;
+    margin-left: 430px;
+    margin-top: 400px;
+}
+
+.cans_sections{
+    display: flex;
+    justify-content: space-between;
+    background-color: #0065c3;
+    height: 400px;
+}
+
+.mango_sec{
+    background-color: #0065c3;
+    height: 600px;
+    position: relative;
+}
+
+.mango_sec .mago_background{
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+}
+
+.mango_sec .mago_cans{
+    width: 50%;
+    object-fit: cover;
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+}
+
+.mango_sec .tagline{
+    width: 25%;
+    position: absolute;
+    top: 50px;
+    left: 30px;
+}
+
+.mango_sec .bottomline{
+    width: 30%;
+    position: absolute;
+    bottom: 10px;
+    left: 30px;
+}
+
+.cans_sections section{
+    width: 50%;
+    height: 100%;
+}
+
+.cans_sections section:first-child {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 50px 10%;
+}
+
+.cans_sections section .tagline{
+    color: white;
+    font-size: 2.5rem;
+    font-weight: 600;
+    letter-spacing: -1px;
+}
+
+.cans_sections section .description{
+    color: white;
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+
+.cans_sections section button{
+    width: 150px;
+    text-transform: uppercase;
+    background-color: transparent;
+    border: 2px solid white;
+    padding: 5px;
+    border-radius: 20px;
+    color: white;
+}
+
+.cans_sections section:nth-child(2)  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cans_sections section:nth-child(2) img {
+    object-fit: cover;
+    height: 70%;
+}
+
+.video-section {
+    width: 100%;
+    height: 750px;
+}
+
+video {
+    width: 100%;
+
+}
+
+.can-section {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background-color: #0065c3;
+    
+}
+
+.can {
+    width: 65%;
+    height: 100%;
+}
+
+.can-caption {
+    width: 40%;
+    height: 100%;
+   
+}
+
+.img5 {
+    width: 80%;
+    margin-top: 40px;
+}
+
+.img6 {
+    width: 85%;
+    position: relative;
+    top: 150px;
+    left: 40px;
+}    
+
+.social-media-section {
+    width: 100%;
+    height: 275px;
+    background-color: white;
+    margin-top: 2px;
+    
+}
+
+.heading {
+    width: 100%;
+    height: 15px;
+    text-align: center;
+}
+
+.stay{
+    color: #0065c3;
+    
+}
+
+.rectangle {
+    display: flex;
+    width: 100%;
+    height: 260px;
+    justify-content: center;
+    align-items: end;
+}
+
+.box {
+    width: 230px;
+    height: 230px;
+}
+
+.box-image {
+    width: 230px;
+    height: 230px;
+}
+
+.footer {
+    width: 100%;
+    height: 290px;
+    background-color: #0065c3;
+    display: flex;
+}
+
+.logo-image {
+    width: 15%;
+    height: 100%;
+}
+
+.abc {
+    width: 100px;
+    margin-top: 95px;
+    margin-left: 30px;
+}
+
+.details {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    padding: 100px 0 0 60px;
+}
+
+.col-1 {
+    height: 100%;
+    width: 35%;
+    font-weight: bolder;
+}
+
+.col-2 {
+    height: 100%;
+    width: 35%;
+    font-weight: bolder;
+}
+
+.col-3 {
+    height: 100%;
+    width: 35%;
+    font-weight: bolder;
+}
+
+.social-media {
+    display: flex;
+}
+
+.social-tags {
+    width: 30px;
+    margin-left: 30px;
+}
